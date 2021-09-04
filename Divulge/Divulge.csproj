@@ -1,7 +1,14 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
+    <Version>0.1.0</Version>
+    <PackageProjectUrl>https://github.com/Qwoon/Divulge</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Qwoon/Divulge</RepositoryUrl>
+    <PackageTags>Telegram .NET 5</PackageTags>
+    <Authors>Artyom Gregory</Authors>
+    <Description>.NET library to send notifications via Telegram</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
